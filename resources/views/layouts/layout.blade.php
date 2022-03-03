@@ -9,9 +9,12 @@
   <link rel="stylesheet" href="{{ asset('css/app.css') }}">
   {{-- js --}}
   <script src="{{ asset('js/app.js') }}"></script>
+  {{-- Font Awesome --}}
+  <script src="https://kit.fontawesome.com/da9db4083e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
+  <header class="page-header">
+    
     @include('partials.headernav')
   </header>
 

@@ -1,2 +1,24 @@
 @import "./partials/footernav";
 @import "./partials/headernav";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li,
+input,
+.btn-main-s {
+    cursor: pointer;
+}
