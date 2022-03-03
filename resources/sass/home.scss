@@ -1,0 +1,59 @@
+.teen-t-jumbo {
+    height: 400px;
+    background-size: cover;
+}
+
+.black-bar {
+    background-color: #1c1c1c;
+    color: white;
+    .container {
+        margin: 0 auto;
+        width: 1280px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+
+        .ad-series,
+        .load {
+            background-color: #0282f9;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .ad-series {
+            padding: 15px 30px;
+            font-size: 25px;
+            position: absolute;
+            left: 0;
+            top: -35px;
+        }
+
+        .load {
+            margin-bottom: 20px;
+            line-height: 40px;
+            padding: 0 60px;
+            font-size: 12px;
+            height: 40px;
+        }
+
+        .comic-card {
+            width: 180px;
+            margin: 50px 15px;
+            .card-img {
+                height: 180px;
+                width: 100%;
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-position: top;
+                    object-fit: cover;
+                }
+            }
+            .title {
+                margin-top: 20px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

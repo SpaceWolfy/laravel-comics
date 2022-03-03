@@ -8,7 +8,7 @@
   font-size: 11px;
   color: white;
   display: flex;
-  width: 1590px;
+  width: 1600px;
   justify-content: flex-end;
 }
 
@@ -101,6 +101,72 @@
 .navigation-bar .search-bar input::placeholder {
   text-align: right;
   color: #504c50;
+}
+
+.teen-t-jumbo {
+  height: 400px;
+  background-size: cover;
+}
+
+.black-bar {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.black-bar .container {
+  margin: 0 auto;
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.black-bar .container .ad-series,
+.black-bar .container .load {
+  background-color: #0282f9;
+  text-align: center;
+  font-weight: 600;
+}
+
+.black-bar .container .ad-series {
+  padding: 15px 30px;
+  font-size: 25px;
+  position: absolute;
+  left: 0;
+  top: -35px;
+}
+
+.black-bar .container .load {
+  margin-bottom: 20px;
+  line-height: 40px;
+  padding: 0 60px;
+  font-size: 12px;
+  height: 40px;
+}
+
+.black-bar .container .comic-card {
+  width: 180px;
+  margin: 50px 15px;
+}
+
+.black-bar .container .comic-card .card-img {
+  height: 180px;
+  width: 100%;
+}
+
+.black-bar .container .comic-card .card-img img {
+  height: 100%;
+  width: 100%;
+  -o-object-position: top;
+     object-position: top;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.black-bar .container .comic-card .title {
+  margin-top: 20px;
+  text-transform: uppercase;
 }
 
 * {
