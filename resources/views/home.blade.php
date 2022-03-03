@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@dump($array)
+{{-- @dump($array) --}}
 
 @section('pageTitle', 'Home')
 
