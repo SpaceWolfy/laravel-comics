@@ -1,0 +1,110 @@
+/* Top section */
+.top-footer {
+    height: 160px;
+    width: 100%;
+    position: relative;
+    background-color: #0282f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul {
+        li {
+            display: flex;
+            align-items: center;
+            color: white;
+            font-size: 15px;
+            padding: 35px;
+            img {
+                height: 55px;
+                margin-right: 16px;
+            }
+            .svg-img {
+                width: 55px;
+            }
+        }
+    }
+}
+
+/* Mid section */
+.mid-footer {
+    background: url("/img/footer-bg.jpg") no-repeat;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 120px;
+    .logo-bg {
+        height: 575px;
+    }
+    .links-lists {
+        display: flex;
+        margin-bottom: 20px;
+        h3 {
+            margin: 18px 0;
+            color: white;
+        }
+        ul {
+            flex-direction: column;
+            color: #838689;
+            li {
+                font-size: 12px;
+                margin-top: 5px;
+            }
+        }
+        .single-list {
+            margin-right: 40px;
+        }
+        .comics-shop {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .policy {
+        font-size: 12px;
+        margin-bottom: 15px;
+        color: #838689;
+
+        .cookie,
+        span {
+            color: #0282f9;
+        }
+    }
+}
+
+/* End section */
+.spam-cont {
+    height: 100px;
+    background-color: #303030;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 270px;
+    input {
+        background-color: transparent;
+        height: 50px;
+        width: 150px;
+        font-size: 16px;
+        font-weight: 600;
+        border: 2px solid #0282f9;
+        color: white;
+        &:hover {
+            background-color: #0282f9;
+        }
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        h3 {
+            color: #0282f9;
+            margin-right: 30px;
+        }
+        ul {
+            li {
+                margin-right: 20px;
+            }
+        }
+    }
+}

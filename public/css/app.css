@@ -1,4 +1,129 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);.blue-line {
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);/* Top section */
+
+.top-footer {
+  height: 160px;
+  width: 100%;
+  position: relative;
+  background-color: #0282f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-footer ul li {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  padding: 35px;
+}
+
+.top-footer ul li img {
+  height: 55px;
+  margin-right: 16px;
+}
+
+.top-footer ul li .svg-img {
+  width: 55px;
+}
+
+/* Mid section */
+
+.mid-footer {
+  background: url("/img/footer-bg.jpg") no-repeat;
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 120px;
+}
+
+.mid-footer .logo-bg {
+  height: 575px;
+}
+
+.mid-footer .links-lists {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.mid-footer .links-lists h3 {
+  margin: 18px 0;
+  color: white;
+}
+
+.mid-footer .links-lists ul {
+  flex-direction: column;
+  color: #838689;
+}
+
+.mid-footer .links-lists ul li {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.mid-footer .links-lists .single-list {
+  margin-right: 40px;
+}
+
+.mid-footer .links-lists .comics-shop {
+  display: flex;
+  flex-direction: column;
+}
+
+.mid-footer .policy {
+  font-size: 12px;
+  margin-bottom: 15px;
+  color: #838689;
+}
+
+.mid-footer .policy .cookie,
+.mid-footer .policy span {
+  color: #0282f9;
+}
+
+/* End section */
+
+.spam-cont {
+  height: 100px;
+  background-color: #303030;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 270px;
+}
+
+.spam-cont input {
+  background-color: transparent;
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid #0282f9;
+  color: white;
+}
+
+.spam-cont input:hover {
+  background-color: #0282f9;
+}
+
+.spam-cont nav {
+  display: flex;
+  align-items: center;
+}
+
+.spam-cont nav h3 {
+  color: #0282f9;
+  margin-right: 30px;
+}
+
+.spam-cont nav ul li {
+  margin-right: 20px;
+}
+
+.blue-line {
   width: 100%;
   background-color: #0282f9;
 }
@@ -105,6 +230,7 @@
 
 .teen-t-jumbo {
   height: 400px;
+  background-image: url("/img/jumbotron.jpg");
   background-size: cover;
 }
 

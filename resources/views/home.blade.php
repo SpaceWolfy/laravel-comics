@@ -8,7 +8,7 @@
 @section('content')
 
 <div class="jumbo">
-  <div class="teen-t-jumbo" style="background-image: url({{asset('img/jumbotron.jpg')}})"></div>
+  <div class="teen-t-jumbo"></div>
 </div>
 
 <div class="black-bar">
